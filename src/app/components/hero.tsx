@@ -17,7 +17,7 @@ const Hero = () => {
             <br className="hidden lg:inline-block"/>
             <Typewriter
   options={{
-    strings: ['A Data Scientist', 'A Data Analyst','A Data Engineer','A python Developer','A DevOps Engineer'],
+    strings: ['A Data Engineer','A python Developer','A DevOps Engineer'],
     autoStart: true,
     loop: true,
   }}
@@ -57,7 +57,7 @@ Always hungry to learn and stays afraid of not trying.
     <p />
   </>
   </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
